@@ -1,0 +1,12 @@
+.country-picker-dropdown {
+  text-align: center;
+}
+
+.country-picker-dropdown select {
+  border: none;
+  font-family: "Play", sans-serif;
+}
+
+.country-picker-dropdown > select > option {
+  font-family: "Play", sans-serif;
+}

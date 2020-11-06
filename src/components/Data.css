@@ -1,0 +1,43 @@
+.worldwide-container {
+  display: flex;
+  margin: 50px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.worldwide-heading,
+.country-heading {
+  text-align: center;
+}
+
+.footer {
+  bottom: 0;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.infected {
+  border-left: 10px solid rgb(0, 0, 255);
+}
+
+.recovered {
+  border-left: 10px solid rgb(0, 255, 0);
+}
+
+.deaths {
+  border-left: 10px solid rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    margin: 2% 0 !important;
+  }
+}
